@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 24.99,
+      "stock": 120,
+      "brand": "LogiTech",
+      "image": "https://example.com/images/mouse.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 79.99,
+      "stock": 75,
+      "brand": "KeyPro",
+      "image": "https://example.com/images/keyboard.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 59.99,
+      "stock": 50,
+      "brand": "SportX",
+      "image": "https://example.com/images/shoes.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Smart Water Bottle",
+      "category": "Lifestyle",
+      "price": 34.99,
+      "stock": 90,
+      "brand": "HydroTech",
+      "image": "https://example.com/images/bottle.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Noise Cancelling Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "stock": 40,
+      "brand": "SoundMax",
+      "image": "https://example.com/images/headphones.jpg"
+    }
+  ]
+}

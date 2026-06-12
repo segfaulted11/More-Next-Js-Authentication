@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Mouse",
+      "name": "Wireless Mouse xyz",
       "category": "Electronics",
       "price": 24.99,
       "stock": 120,
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Mechanical Keyboard",
+      "name": "Mechanical Keyboard abc",
       "category": "Electronics",
       "price": 79.99,
       "stock": 75,
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "name": "Running Shoes",
+      "name": "Running Shoes lmao",
       "category": "Footwear",
       "price": 59.99,
       "stock": 50,

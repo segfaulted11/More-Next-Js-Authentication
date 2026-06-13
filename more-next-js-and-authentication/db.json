@@ -45,5 +45,67 @@
       "brand": "SoundMax",
       "image": "https://example.com/images/headphones.jpg"
     }
+  ],
+   "books": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "price": 14.99,
+      "rating": 4.8,
+      "publishedYear": 2018,
+      "pages": 320,
+      "inStock": true,
+      "coverImage": "https://example.com/covers/atomic-habits.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "price": 12.50,
+      "rating": 4.7,
+      "publishedYear": 1988,
+      "pages": 208,
+      "inStock": true,
+      "coverImage": "https://example.com/covers/alchemist.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "price": 29.99,
+      "rating": 4.9,
+      "publishedYear": 2008,
+      "pages": 464,
+      "inStock": true,
+      "coverImage": "https://example.com/covers/clean-code.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "genre": "Productivity",
+      "price": 16.99,
+      "rating": 4.6,
+      "publishedYear": 2016,
+      "pages": 304,
+      "inStock": false,
+      "coverImage": "https://example.com/covers/deep-work.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "price": 18.99,
+      "rating": 4.9,
+      "publishedYear": 1997,
+      "pages": 223,
+      "inStock": true,
+      "coverImage": "https://example.com/covers/harry-potter-1.jpg"
+    }
   ]
 }

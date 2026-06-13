@@ -2,16 +2,16 @@ import ProductCard from "../components/ProductCard";
 
 const getProducts = async () => {
 //   const res = await fetch("http://localhost:5000/products", {
-//     cache: "force-cache",});
+//     cache: "force-cache",}); (SSG)
     // Fetches data once and saves it in the cache.
   // Future requests use the cached data instead of fetching again.
   // If the server data changes, the cached version may still be shown.
 
-  // const res = await fetch("http://localhost:5000/products",{cache:"no-store"});
+  // const res = await fetch("http://localhost:5000/products",{cache:"no-store"}); (SSR)
   // Always fetches fresh data from the server.
   // Nothing is cached, so any changes on the server are reflected immediately.
 
-  const res = await fetch("http://localhost:5000/products", {next : {revalidate:20}});//after 20s of changing data, the changed will be displayed on the UI.
+  const res = await fetch("http://localhost:5000/products", {next : {revalidate:20}});//after 20s of changing data, the changed will be displayed on the UI. (ISR)
 
   //which one to use depends on the need.
 
